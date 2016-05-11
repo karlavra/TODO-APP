@@ -1,0 +1,26 @@
+.caja-fija{
+	position: fixed;
+	width: 100%;
+	TEXT-ALIGN: CENTER;
+	border-bottom: 5px solid #13C3B1;
+    padding-bottom: 10px;
+}
+h1{
+	MARGIN: auto;
+    PADDING: 20PX 0;
+    BACKGROUND-COLOR: #13C3B1;
+    COLOR: WHITE;
+    MARGIN-BOTTOM: 15PX;
+}
+button{
+	margin: 15px 0;
+    background-color:#13C3B1;
+    color: white;
+}
+textarea{
+	width: 90%;
+    margin: auto;
+}
+#lista{
+	    padding-top: 280px
+}
