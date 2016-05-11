@@ -9,6 +9,7 @@ function AccionToDo(texto){
 	var lista= document.getElementById("lista");
 	//crear caja de tarea
 	var caja= document.createElement("div");
+	caja.className="caja";
 	//incluir accion
 	var elemento= document.createElement("span")
 	elemento.className="text";
@@ -20,6 +21,7 @@ function AccionToDo(texto){
 	icon.className="glyphicon glyphicon-trash"
 	//cuando se haga click en el boton se eliminara el div. lista del elemento padre caja.
 	boton.onclick= function(){
+		alert("Estas eliminando una tarea");
 		lista.removeChild(caja);
 	}
 	//crea input checkbox para marcar la accion
@@ -29,9 +31,11 @@ function AccionToDo(texto){
 	check.onchange= function(){
 		if(check.checked==true){
 			elemento.innerHTML=texto.strike();
+			elemento.className = "check"
 		}
 		else{
 			elemento.innerHTML=texto;
+			elemento.className = "";
 		}
 	}
 	//el icono esta dentro del boton

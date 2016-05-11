@@ -4,6 +4,7 @@
 	TEXT-ALIGN: CENTER;
 	border-bottom: 5px solid #13C3B1;
     padding-bottom: 10px;
+    background-color: beige;
 }
 h1{
 	MARGIN: auto;
@@ -22,5 +23,29 @@ textarea{
     margin: auto;
 }
 #lista{
-	    padding-top: 280px
+	    padding: 280px 20px 5px;
+	    overflow: scroll;
+		overflow-x: hidden
+}
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgba(19, 195, 177, 0.53);
+}
+.caja{
+	    border-bottom: 1px solid #13C3B1;
+	    margin: 15px 0;
+    	padding: 10px 0;
+    	
+}
+.eliminar{
+	float: right;
+}
+span{
+	margin-left: 15px;
+}
+.check{
+	color: #13C3B1;
+	
 }
