@@ -2,20 +2,20 @@
 	position: fixed;
 	width: 100%;
 	TEXT-ALIGN: CENTER;
-	border-bottom: 5px solid #13C3B1;
+	border-bottom: 5px solid #8BC34A;
     padding-bottom: 10px;
     background-color: beige;
 }
 h1{
 	MARGIN: auto;
     PADDING: 20PX 0;
-    BACKGROUND-COLOR: #13C3B1;
+    BACKGROUND-COLOR:#8BC34A;
     COLOR: WHITE;
     MARGIN-BOTTOM: 15PX;
 }
 button{
 	margin: 15px 0;
-    background-color:#13C3B1;
+    background-color:#8BC34A;
     color: white;
 }
 textarea{
@@ -34,7 +34,7 @@ textarea{
   background-color: rgba(19, 195, 177, 0.53);
 }
 .caja{
-	    border-bottom: 1px solid #13C3B1;
+	    border-bottom: 1px solid #8BC34A;
 	    margin: 15px 0;
     	padding: 10px 0;
     	
@@ -46,6 +46,6 @@ span{
 	margin-left: 15px;
 }
 .check{
-	color: #13C3B1;
+	color: #8BC34A;
 	
 }
